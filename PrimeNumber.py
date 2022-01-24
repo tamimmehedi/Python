@@ -6,3 +6,11 @@ if number>1:
             break
     else:
             print(number, "is prime number")
+            
+            
+            ////////////////////////////
+            
+            
+for num in range(100,200):
+    if all(num%i != 0 for i in range(2,num)):
+        print(num)
